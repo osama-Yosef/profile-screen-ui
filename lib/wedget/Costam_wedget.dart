@@ -1,4 +1,4 @@
-timport 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 class CostamWedgit extends StatelessWidget {
   const CostamWedgit({super.key, required this.icon, required this.text});
