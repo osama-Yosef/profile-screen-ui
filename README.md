@@ -1,64 +1,65 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+<img src="docs/cover.png" alt="Profile Screen UI" width="100%" />
 
-<br/><br/>
+<br/>
 
-# 👤 Profile Screen UI
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white)](https://dart.dev)
 
-### A pixel-focused Flutter profile screen build
+**A dark-mode profile screen, built from a design reference.**
+Avatar, name and email, a settings-style menu and social links, with the focus on spacing,
+typography and reusable widgets.
 
 </div>
 
 ---
 
-## About
+## Screenshot
 
-A standalone UI exercise: rebuilding a polished dark-mode **profile screen** from a
-design reference — avatar, name/email header, and a settings-style menu list (Settings,
-Friends, and more) — with an emphasis on spacing, typography, and reusable widgets
-rather than app logic.
+<p align="center">
+  <img src="docs/screenshots/profile.png" width="260" alt="Profile screen"/>
+</p>
 
-## Features
+## What's inside
 
-- Custom app bar (`My_app_bar.dart`)
-- Circular avatar rendered from SVG
-- Reusable menu-row widget (`Costam_wedget.dart`) driven by icon + label props
-- Dark theme layout tuned for contrast and readability
+- **Custom app bar** with menu, search and edit actions
+- **Circular SVG avatar**, name and email, separated by a divider
+- **Reusable menu row** (`Costam_wedget`) that takes an icon and a label: Settings, Friends, New Group, Support
+- **Social links** row with Facebook, Instagram, LinkedIn and WhatsApp icons
+- High-contrast dark layout
 
-## Tech Stack
+## Tech stack
 
-| Category | Choice |
-|---|---|
-| Framework | Flutter / Dart |
-| Icons | `font_awesome_flutter` |
+| Area | Choice |
+|:--|:--|
+| Framework | Flutter, Dart |
 | Graphics | `flutter_svg` |
-
-## Project Structure
+| Icons | `font_awesome_flutter` |
 
 ```
 lib/
 ├── screen/
-│   └── home_screen.dart      # The profile screen itself
+│   └── home_screen.dart      the profile screen
 ├── wedget/
-│   ├── My_app_bar.dart        # Custom app bar
-│   ├── Costam_wedget.dart     # Reusable icon + label menu row
-│   └── My_app.dart            # App root
+│   ├── My_app_bar.dart       custom app bar
+│   ├── Costam_wedget.dart    reusable icon + label row
+│   └── My_app.dart           app root
 └── main.dart
 ```
 
-## Getting Started
+## Getting started
 
 ```bash
 flutter pub get
 flutter run
 ```
 
----
+## Author
 
-## Contact
+**Osama Yosef** · Flutter developer, Cairo
 
-Built by **Osama Yosef** — Flutter Developer
-📧 osamayosef038@gmail.com
-💼 [LinkedIn — Osama Yosef](https://www.linkedin.com/in/osama-yosef-819268319)
+[![GitHub](https://img.shields.io/badge/GitHub-osama--Yosef-181717?style=flat-square&logo=github)](https://github.com/osama-Yosef)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Osama%20Yosef-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/osama-yosef-819268319)
+[![Upwork](https://img.shields.io/badge/Upwork-Hire%20me-6FDA44?style=flat-square&logo=upwork&logoColor=white)](https://upwork.com/freelancers/~014ebd205ef38ca04c)
+[![Email](https://img.shields.io/badge/Email-osamayosef038%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:osamayosef038@gmail.com)
